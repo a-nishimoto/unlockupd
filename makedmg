@@ -1,0 +1,10 @@
+xcodebuild
+sudo cp build/Release/unlockupd  root/usr/local/bin/unlockupd
+
+echo "Create the package..."
+read
+
+rm Unlockupd.dmg
+hdiutil create -srcfolder Unlockupd Unlockupd.dmg -format UDZO -volname "Unlockupd"
+
+gzip -c Unlockupd.dmg > Unlockupd.dmg.gz

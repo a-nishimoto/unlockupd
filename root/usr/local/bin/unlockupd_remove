@@ -1,0 +1,2 @@
+killall unlockupd
+rm -rf /usr/local/bin/unlockupd /Library/StartupItems/Unlockupd/ /Library/Receipts/unlockupd.pkg/ /usr/local/bin/unlockupd_remove

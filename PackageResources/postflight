@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+##We kill any existing instances of unlockupd before running the installed version
+
+system('/usr/bin/killall -9 unlockupd');
+system('/usr/local/bin/unlockupd&');
+
+exit(0);
+

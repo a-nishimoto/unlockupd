@@ -1,0 +1,7 @@
+{
+  Description     = "Unlockupd";
+  Provides        = ("Unlockupd");
+  Requires        = ("DirectoryServices");
+  Uses            = ("Disks", "NFS");
+  OrderPreference = "None";
+}
