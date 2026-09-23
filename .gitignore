@@ -1,0 +1,16 @@
+# macOS Finder metadata.
+# The .DS_Store files shipped in the upstream release stay tracked as-is.
+.DS_Store
+
+# Xcode per-user state.
+# The author's dshadow.* files shipped upstream stay tracked as-is.
+*.pbxuser
+*.mode1
+*.mode1v3
+*.perspectivev3
+xcuserdata/
+
+# Build outputs from xcodebuild / makedmg
+build/
+Unlockupd.dmg
+Unlockupd.dmg.gz
